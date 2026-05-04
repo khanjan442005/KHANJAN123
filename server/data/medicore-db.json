@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 3,
+  "sessions": [
+    {
+      "token": "6316bf6f-0fcb-4f51-8774-6c1f24a2b7fb",
+      "userId": 2,
+      "createdAt": "2026-05-04T04:04:13.489Z"
+    },
+    {
+      "token": "35f249f9-cec2-4a33-88f3-cbbf10ef8fdc",
+      "userId": 3,
+      "createdAt": "2026-05-04T04:04:13.507Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "role": "Patient",
+      "email": "patient@medicore.com",
+      "password": "patient123",
+      "displayName": "Aarav Shah",
+      "initials": "AS",
+      "entityId": 1,
+      "createdAt": "2026-04-15T18:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "role": "Doctor",
+      "email": "doctor@medicore.in",
+      "password": "doctor123",
+      "displayName": "Dr. Meera Iyer",
+      "initials": "DM",
+      "entityId": 1,
+      "createdAt": "2026-03-29T18:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "role": "Admin",
+      "email": "admin@medicore.in",
+      "password": "admin123",
+      "displayName": "Riya Patel",
+      "initials": "RP",
+      "entityId": 1,
+      "createdAt": "2026-03-04T18:30:00.000Z"
+    },
+    {
+      "id": 4,
+      "role": "Doctor",
+      "email": "skin@medicore.in",
+      "password": "doctor123",
+      "displayName": "Dr. Kavya Desai",
+      "initials": "DK",
+      "entityId": 2,
+      "createdAt": "2026-04-11T18:30:00.000Z"
+    },
+    {
+      "id": 5,
+      "role": "Doctor",
+      "email": "pending@medicore.in",
+      "password": "doctor123",
+      "displayName": "Dr. Raj Patel",
+      "initials": "DR",
+      "entityId": 3,
+      "createdAt": "2026-04-29T18:30:00.000Z"
+    },
+    {
+      "id": 6,
+      "role": "Patient",
+      "email": "neha@medicore.com",
+      "password": "patient123",
+      "displayName": "Neha Joshi",
+      "initials": "NJ",
+      "entityId": 2,
+      "createdAt": "2026-04-23T18:30:00.000Z"
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "userId": 1,
+      "fullName": "Aarav Shah",
+      "email": "patient@medicore.com",
+      "phone": "+91 98765 43210",
+      "address": "Ahmedabad, Gujarat",
+      "dateOfBirth": "1998-08-14",
+      "avatarPath": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%20role%3D%22img%22%20aria-label%3D%22AS%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2228%22%20fill%3D%22%231f4f8f%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20text-anchor%3D%22middle%22%20font-family%3D%22Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2242%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%3EAS%3C%2Ftext%3E%3C%2Fsvg%3E"
+    },
+    {
+      "id": 2,
+      "userId": 6,
+      "fullName": "Neha Joshi",
+      "email": "neha@medicore.com",
+      "phone": "+91 98989 12233",
+      "address": "Vadodara, Gujarat",
+      "dateOfBirth": "1994-03-09",
+      "avatarPath": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%20role%3D%22img%22%20aria-label%3D%22NJ%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2228%22%20fill%3D%22%233d7ad6%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20text-anchor%3D%22middle%22%20font-family%3D%22Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2242%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%3ENJ%3C%2Ftext%3E%3C%2Fsvg%3E"
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "userId": 2,
+      "fullName": "Dr. Meera Iyer",
+      "email": "doctor@medicore.in",
+      "specialization": "Cardiology",
+      "licenseNumber": "GJ-MCI-2741",
+      "experienceYears": 12,
+      "city": "Ahmedabad",
+      "consultationFee": 900,
+      "hospitalName": "City Heart Clinic",
+      "bio": "Focused on preventive cardiology, routine diagnostics, and long-term cardiac care.",
+      "languages": "English, Hindi, Gujarati",
+      "rating": 4.8,
+      "verificationStatus": "Approved",
+      "requestedAt": "2026-03-29T18:30:00.000Z",
+      "verifiedAt": "2026-04-03T18:30:00.000Z",
+      "avatarPath": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%20role%3D%22img%22%20aria-label%3D%22DM%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2228%22%20fill%3D%22%23142f55%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20text-anchor%3D%22middle%22%20font-family%3D%22Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2242%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%3EDM%3C%2Ftext%3E%3C%2Fsvg%3E"
+    },
+    {
+      "id": 2,
+      "userId": 4,
+      "fullName": "Dr. Kavya Desai",
+      "email": "skin@medicore.in",
+      "specialization": "Dermatology",
+      "licenseNumber": "GJ-MCI-1988",
+      "experienceYears": 9,
+      "city": "Surat",
+      "consultationFee": 750,
+      "hospitalName": "Glow Skin Centre",
+      "bio": "Consults on acne, skin health, pigmentation, and preventative dermatology care.",
+      "languages": "English, Hindi",
+      "rating": 4.6,
+      "verificationStatus": "Approved",
+      "requestedAt": "2026-04-11T18:30:00.000Z",
+      "verifiedAt": "2026-04-13T18:30:00.000Z",
+      "avatarPath": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%20role%3D%22img%22%20aria-label%3D%22DK%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2228%22%20fill%3D%22%238b95a7%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20text-anchor%3D%22middle%22%20font-family%3D%22Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2242%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%3EDK%3C%2Ftext%3E%3C%2Fsvg%3E"
+    },
+    {
+      "id": 3,
+      "userId": 5,
+      "fullName": "Dr. Raj Patel",
+      "email": "pending@medicore.in",
+      "specialization": "Orthopedics",
+      "licenseNumber": "GJ-MCI-4210",
+      "experienceYears": 6,
+      "city": "Vadodara",
+      "consultationFee": 800,
+      "hospitalName": "Axis Bone Care",
+      "bio": "Handles joint pain, mobility plans, and post-injury orthopedic consultation.",
+      "languages": "English, Hindi, Gujarati",
+      "rating": 4.3,
+      "verificationStatus": "Pending",
+      "requestedAt": "2026-04-29T18:30:00.000Z",
+      "verifiedAt": null,
+      "avatarPath": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%20role%3D%22img%22%20aria-label%3D%22DR%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2228%22%20fill%3D%22%233d7ad6%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20text-anchor%3D%22middle%22%20font-family%3D%22Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2242%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%3EDR%3C%2Ftext%3E%3C%2Fsvg%3E"
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "userId": 3,
+      "fullName": "Riya Patel",
+      "email": "admin@medicore.in",
+      "adminCode": "MEDICORE-ADMIN"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "doctorId": 1,
+      "appointmentDate": "2026-05-04",
+      "timeSlot": "10:00 AM",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "paymentMethod": "UPI",
+      "consultationFee": 900,
+      "platformFee": 50,
+      "totalAmount": 950,
+      "createdAt": "2026-05-01T18:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "patientId": 1,
+      "doctorId": 1,
+      "appointmentDate": "2026-05-06",
+      "timeSlot": "11:30 AM",
+      "status": "Payment Pending",
+      "paymentStatus": "Pending",
+      "paymentMethod": "Not selected",
+      "consultationFee": 900,
+      "platformFee": 50,
+      "totalAmount": 950,
+      "createdAt": "2026-05-02T18:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "patientId": 1,
+      "doctorId": 2,
+      "appointmentDate": "2026-05-01",
+      "timeSlot": "04:30 PM",
+      "status": "Completed",
+      "paymentStatus": "Paid",
+      "paymentMethod": "Card",
+      "consultationFee": 750,
+      "platformFee": 50,
+      "totalAmount": 800,
+      "createdAt": "2026-04-25T18:30:00.000Z"
+    },
+    {
+      "id": 4,
+      "patientId": 2,
+      "doctorId": 1,
+      "appointmentDate": "2026-05-08",
+      "timeSlot": "09:30 AM",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "paymentMethod": "Net Banking",
+      "consultationFee": 900,
+      "platformFee": 50,
+      "totalAmount": 950,
+      "createdAt": "2026-04-28T18:30:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "label": "Confirmed",
+      "title": "Appointment confirmed",
+      "message": "Your visit with Dr. Meera Iyer is confirmed and synced with the clinic schedule.",
+      "createdAt": "2026-05-01T18:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "patientId": 1,
+      "label": "Payment",
+      "title": "Payment pending",
+      "message": "Finish your payment to confirm the upcoming cardiology appointment.",
+      "createdAt": "2026-05-02T18:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "patientId": 1,
+      "label": "Reminder",
+      "title": "Visit completed",
+      "message": "Your last dermatology appointment was marked as completed in the system.",
+      "createdAt": "2026-04-30T18:30:00.000Z"
+    }
+  ],
+  "availabilities": [
+    {
+      "doctorId": 1,
+      "dayLabel": "Mon",
+      "sessionLabel": "Morning",
+      "timeRange": "09:00 - 12:00",
+      "slotValues": [
+        "09:00 AM",
+        "09:30 AM",
+        "10:00 AM",
+        "10:30 AM",
+        "11:00 AM",
+        "11:30 AM"
+      ]
+    },
+    {
+      "doctorId": 1,
+      "dayLabel": "Wed",
+      "sessionLabel": "Evening",
+      "timeRange": "16:00 - 18:00",
+      "slotValues": [
+        "04:00 PM",
+        "04:30 PM",
+        "05:00 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "doctorId": 1,
+      "dayLabel": "Fri",
+      "sessionLabel": "Morning",
+      "timeRange": "09:00 - 11:00",
+      "slotValues": [
+        "09:00 AM",
+        "09:30 AM",
+        "10:00 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "doctorId": 2,
+      "dayLabel": "Tue",
+      "sessionLabel": "Morning",
+      "timeRange": "10:00 - 13:00",
+      "slotValues": [
+        "10:00 AM",
+        "10:30 AM",
+        "11:00 AM",
+        "11:30 AM",
+        "12:00 PM"
+      ]
+    },
+    {
+      "doctorId": 2,
+      "dayLabel": "Thu",
+      "sessionLabel": "Evening",
+      "timeRange": "16:00 - 19:00",
+      "slotValues": [
+        "04:00 PM",
+        "04:30 PM",
+        "05:00 PM",
+        "05:30 PM",
+        "06:00 PM"
+      ]
+    },
+    {
+      "doctorId": 2,
+      "dayLabel": "Sat",
+      "sessionLabel": "Morning",
+      "timeRange": "09:30 - 12:30",
+      "slotValues": [
+        "09:30 AM",
+        "10:00 AM",
+        "10:30 AM",
+        "11:00 AM",
+        "11:30 AM"
+      ]
+    },
+    {
+      "doctorId": 3,
+      "dayLabel": "Mon",
+      "sessionLabel": "Morning",
+      "timeRange": "09:00 - 12:00",
+      "slotValues": [
+        "09:00 AM",
+        "09:30 AM",
+        "10:00 AM",
+        "10:30 AM",
+        "11:00 AM",
+        "11:30 AM"
+      ]
+    },
+    {
+      "doctorId": 3,
+      "dayLabel": "Wed",
+      "sessionLabel": "Evening",
+      "timeRange": "16:00 - 18:00",
+      "slotValues": [
+        "04:00 PM",
+        "04:30 PM",
+        "05:00 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "doctorId": 3,
+      "dayLabel": "Fri",
+      "sessionLabel": "Morning",
+      "timeRange": "09:00 - 11:00",
+      "slotValues": [
+        "09:00 AM",
+        "09:30 AM",
+        "10:00 AM",
+        "10:30 AM"
+      ]
+    }
+  ]
+}

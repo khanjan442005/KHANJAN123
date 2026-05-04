@@ -1,0 +1,153 @@
+.react-app {
+  min-height: 100vh;
+}
+
+/* Final polish overrides for consistent spacing, readable mobile tables, and calmer surfaces. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-font,
+.btn,
+.btn-brand,
+.btn-brand-outline,
+.btn-surface,
+.public-link,
+.nav-link-soft {
+  letter-spacing: 0;
+}
+
+.ambient-layer {
+  display: none;
+}
+
+.public-main,
+.auth-layout,
+.panel-layout,
+.panel-main,
+.panel-page {
+  min-width: 0;
+}
+
+.panel-page {
+  display: grid;
+  gap: 1rem;
+}
+
+.section-card,
+.panel-hero,
+.profile-shell,
+.confirmation-shell,
+.payment-shell,
+.detail-card,
+.note-card,
+.metric-card,
+.stat-card,
+.feature-card,
+.doctor-tile,
+.timeline-item,
+.role-option,
+.auth-mini-card {
+  border-radius: 8px;
+}
+
+.public-nav-shell,
+.panel-sidebar,
+.panel-topbar,
+.auth-copy-panel,
+.auth-form-panel,
+.auth-form-card,
+.holo-platform,
+.home-cta {
+  border-radius: 12px;
+}
+
+.section-head {
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.section-head > * {
+  min-width: 0;
+}
+
+.table-theme {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-theme .table {
+  min-width: 760px;
+}
+
+.summary-row,
+.timeline-item,
+.panel-user-chip,
+.demo-panel-head,
+.demo-account-card {
+  min-width: 0;
+}
+
+.summary-row > *,
+.timeline-copy,
+.panel-user-meta,
+.demo-account-copy,
+.doctor-tile,
+.detail-card {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.btn,
+.btn-brand,
+.btn-brand-outline,
+.btn-surface,
+.btn-primary,
+.btn-success,
+.btn-danger,
+.public-link,
+.nav-link-soft,
+.panel-context-pill,
+.status-tag {
+  white-space: normal;
+  text-align: center;
+}
+
+.form-control,
+.form-select {
+  width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .hero-title {
+    max-width: none;
+    font-size: clamp(2.1rem, 11vw, 3rem);
+    line-height: 1.05;
+  }
+
+  .section-head,
+  .timeline-item,
+  .summary-row,
+  .panel-user-chip {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .section-head .btn,
+  .section-head .btn-brand,
+  .section-head .btn-brand-outline,
+  .section-head .btn-surface,
+  .timeline-item .btn,
+  .timeline-item .btn-brand,
+  .timeline-item .btn-brand-outline,
+  .timeline-item .btn-surface {
+    width: 100%;
+  }
+
+  .auth-layout {
+    min-height: auto;
+  }
+}
