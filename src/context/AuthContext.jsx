@@ -13,6 +13,8 @@ export function AuthProvider({ children }) {
         loading: false,
         user: payload?.isAuthenticated ? payload : null
       });
+
+      
       return payload;
     } catch {
       setSession({ loading: false, user: null });
